@@ -70,7 +70,7 @@ let point4 = [];
 function preload() {
   spritedata = loadJSON('assets/point.json');
   spritesheetP = loadImage('assets/pointSpritesheet.png');
-  spritesheetV = loadImage('assets/checkSpritesheet.png');
+  spritesheetV = loadImage('assets/checkspritesheet.png');
 }
 
 function setup() {
