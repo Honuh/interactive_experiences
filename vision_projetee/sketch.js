@@ -274,7 +274,7 @@ function mouseDragged() {
 function mouseWheel(event) {
   // Gère le zoom avec la molette de la souris
   let delta = event.delta;
-  let zoomIncrement = delta * 0.002;
+  let zoomIncrement = -delta * 0.002;
   let prevZoomFactor = zoomFactor;
   zoomFactor += zoomIncrement;
   zoomFactor = constrain(zoomFactor, 1, 5);
